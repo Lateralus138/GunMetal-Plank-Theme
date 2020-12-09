@@ -1,5 +1,8 @@
 # GunMetal - Plank Dock Theme
 
+<a class="twitter-share-button"
+  href="https://twitter.com/share?ref_src=twsrc%5Etfw&text='GunMetal+-+Plank+Theme+'+-+Simple+Plank+Dock+theme%0A%23Linux+%23theme+via+%40thefluxapex">![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FLateralus138%2FGunMetal-Plank-Theme)</a> this project.
+
 Just a little Gun Metal Blue &amp; Gray theme for the Plank dock.
 
 ## Disclaimer
