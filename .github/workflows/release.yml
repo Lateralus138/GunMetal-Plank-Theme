@@ -1,8 +1,6 @@
 name: Release
 
-on:
-  push:
-    - master
+on: push
     
 jobs:
   build_and_test_linux:
