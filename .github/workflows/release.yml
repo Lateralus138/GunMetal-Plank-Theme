@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  push:
+    - master
+    
+jobs:
+  build_and_test_linux:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: True
+          tag: 1.0.0.0
+          name: Stable Release
+          prerelease: False
+          artifacts: "src/gunmetal.tar.gz"
+          token: ${{ secrets.GITHUB_TOKEN }}
